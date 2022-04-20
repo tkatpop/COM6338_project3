@@ -194,9 +194,39 @@ footer h4{
 Home Page
 
 *******************************/
+.gallery{
+    max-width:70%;
+    margin:0 auto;
+}
 
 .gallery img{
-    
+    border-radius:50%;
+	max-width: 100%;
+    border:#75c043 solid 5px;
+}
+
+#c_title{
+    color:#ffffff;
+    background-color: #9336dd;
+}
+
+.home section{
+    background-color: #3fc3d7;
+    color:#ffffff;
+}
+
+#cta{
+    background-color: #9336dd;
+    color: #ffffff;
+}
+
+.cta_bubble{
+    background-image: url("../images/empty_bubble.png");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size:60%;
+	margin:0 auto;
+	padding:250px;
 }
 
 /*******************************
