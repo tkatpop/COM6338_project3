@@ -1,0 +1,279 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom CSS*/
+
+/*******************************
+
+Header
+
+*******************************/
+
+
+header .logo{
+	max-width:100%;
+	padding:30px;
+}
+
+#hamnav label{
+	float: right;
+	top: 0;
+	right: 0;
+}
+
+header{
+	display:flex;
+}
+
+/*******************************
+
+Top/Hamburger Navigation
+
+*******************************/
+#hamnav{
+	width:100%;
+}
+
+#hamitems a{
+	box-sizing: border-box;
+	display:block;
+	width:100%;
+	padding:10px;
+	text-decoration:none;
+	text-align:center;
+	color:#75c043;
+}
+
+#hamitems a:hover {
+	background:#2446cb;
+}
+
+#hamnav label{
+	display:inline-block;
+	color:#75c043;
+	font-size: 3em;
+	padding:30px;
+	font-family: proxima-soft, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+#hamitems{
+	display: none;
+}
+
+#ham input:checked ~ #hamitems{
+	display:block;
+}
+
+#hamburger{
+	display: none;
+}
+
+/*******************************
+
+Headings and Font
+
+*******************************/
+body{
+	font-family: proxima-soft, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+}
+
+p{
+	font-family: asap, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: .5em;
+}
+
+h1{
+	color:#9336dd;
+	font-size:2.3em;
+	padding-top:20px;
+}
+
+h2{
+	color:#3fc3d7;
+	font-size:1.6em;
+	padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+h3{
+	font-size:1.5em;
+}
+
+h4{
+	font-family: asap, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:1em;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*******************************
+
+Footer
+
+*******************************/
+
+footer{
+	background-color:#3fc3d7;
+	color:#ffffff;
+}
+
+footer nav{
+	padding:30px;
+}
+
+footer ul li{
+	display: inline;
+	padding:5px;
+}
+
+footer a{
+	color:#ffffff;
+	font-size: 1em;
+
+}
+
+footer h4{
+	padding-bottom:30px;
+}
+
+/*******************************
+
+Home Page
+
+*******************************/
+
+.gallery img{
+    
+}
+
+/*******************************
+
+About Page
+
+*******************************/
+
+/*******************************
+
+Services/Classes Page
+
+*******************************/
+
+/*******************************
+
+Media Queries
+
+*******************************/
+
+@media only screen and (min-width: 320px) {
+    
+}
+
+@media only screen and (min-width: 576px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+
+    header{
+		max-width:100%;
+		margin:0 auto;
+	}
+
+    #hamnav label,
+	#hamburger{
+		display:none;
+	}
+    
+	#hamitems{
+		display: flex;
+		justify-content: right;
+	}
+
+	#hamitems a{
+		background-color: #9336dd;
+		color:#ffffff;
+		border:#9336dd solid 1px;
+		border-radius:10px;
+		padding: 10px 20px;
+	}
+
+	#hamitems li{
+		margin: 10px 20px;
+	}
+
+	#hamnav{
+		background-color: #3fc3d7;
+		display:flex;
+		justify-content: right;
+		max-width:100%;
+		margin-top:100px;
+	}
+
+	.logo{
+		position:absolute;
+		padding:30px;
+	
+	}
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
