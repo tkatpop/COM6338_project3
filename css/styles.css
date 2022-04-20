@@ -128,7 +128,7 @@ p{
 	font-family: asap, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: .5em;
+	font-size: 1em;
 }
 
 h1{
@@ -148,7 +148,8 @@ h3{
 	font-size:1.5em;
 }
 
-h4{
+h4,
+li{
 	font-family: asap, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -157,6 +158,12 @@ h4{
 
 a{
 	text-decoration: none;
+}
+
+li a{
+    font-family: proxima-soft, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 /*******************************
@@ -229,17 +236,161 @@ Home Page
 	padding:250px;
 }
 
+.cta_bubble h3{
+	margin-bottom: 50px;
+}
+
+.home section a{
+    background-color:#75c043;
+	color:#ffffff;
+	padding:10px 50px;
+	border:#75c043 solid 1px;
+	border-radius: 10px;
+}
+
+.side ul{
+    max-width:90%;
+	margin:0 auto;
+	list-style-type: disc;
+	padding: 50px;
+}
+
+.side li{
+    font-size:1em;
+	text-align:left;
+	padding:10px;
+}
 /*******************************
 
 About Page
 
 *******************************/
 
+.about main{
+    margin:0 auto;
+}
+
+.first{
+    max-width:60%;
+    margin:0 auto;
+}
+
+.first p{
+    font-size:1em;
+    text-align:left;
+    color:#241060;
+}
+
+.mission{
+    background-color: #9336dd;
+    color:#ffffff;
+}
+
+.mission p{
+    max-width:60%;
+    margin:0 auto;
+    text-align: left;
+}
+
+.values{
+    background-color: #3fc3d7;
+    color:#ffffff;
+}
+
+.values ul{
+    max-width:50%;
+    margin:0 auto;
+    list-style-type: disc;
+	padding: 50px;
+}
+
+.values li{
+    text-align: left;
+    padding:10px;
+}
+
+.founder h3{
+    color:#9336dd;
+}
+
+.founder h4{
+    color:#3fc3d7;
+    font-family: proxima-soft, sans-serif;
+    font-weight: 700;
+    font-size:1.2em;
+}
+
+.founder img{
+    border-radius:50%;
+	max-width: 100%;
+    border:#75c043 solid 5px;
+}
+
+.founder p{
+    max-width:60%;
+    margin:0 auto;
+    text-align: left;
+    color:#241060;
+}
+
 /*******************************
 
 Services/Classes Page
 
 *******************************/
+
+.services section{
+    max-width:50%;
+    margin:30px auto;
+    text-align:left;
+}
+
+#note{
+    max-width:50%;
+    text-align:left;
+    margin:0 auto 30px;
+    font-weight:700;
+    color:#241060;
+}
+
+.services section h3{
+    color:#3fc3d7;
+}
+
+.services section h4{
+    color:#9336dd;
+    font-weight:700;
+}
+
+.services p{
+    color:#241060;
+}
+
+
+.services div{
+    background-color: #3fc3d7;
+    color:#ffffff;
+    padding:50px 0;
+}
+
+.services div h3{
+    margin-bottom: 50px;
+}
+
+.services div:nth-last-child(1){
+    background-color:#9336dd;
+    color:#ffffff;
+}
+
+.services div a{
+    background-color:#75c043;
+	color:#ffffff;
+	padding:10px 50px;
+	border:#75c043 solid 1px;
+	border-radius: 10px;
+}
+
+
 
 /*******************************
 
