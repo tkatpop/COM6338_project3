@@ -203,7 +203,7 @@ Home Page
 *******************************/
 .gallery{
     max-width:70%;
-    margin:0 auto;
+	margin: 0 auto 50px;
 }
 
 .gallery img{
@@ -215,6 +215,7 @@ Home Page
 #c_title{
     color:#ffffff;
     background-color: #9336dd;
+	padding: 20px 0;
 }
 
 .home section{
@@ -225,19 +226,21 @@ Home Page
 #cta{
     background-color: #9336dd;
     color: #ffffff;
+	margin:0 auto;
 }
 
 .cta_bubble{
     background-image: url("../images/empty_bubble.png");
     background-repeat: no-repeat;
 	background-position: center center;
-	background-size:60%;
+	background-size:80%;
 	margin:0 auto;
-	padding:250px;
+	padding:150px 0 150px;
 }
 
 .cta_bubble h3{
 	margin-bottom: 50px;
+	font-size:1.2em;
 }
 
 .home section a{
@@ -259,6 +262,14 @@ Home Page
     font-size:1em;
 	text-align:left;
 	padding:10px;
+}
+
+.home aside{
+	padding-bottom: 50px;
+}
+
+.home aside h4{
+	margin-bottom: 50px;
 }
 /*******************************
 
@@ -417,11 +428,61 @@ Media Queries
 }
 
 @media only screen and (min-width: 576px) {
+	.cta_bubble{
+		padding: 150px;
+		background-size: 60%;
+	}
+
+	.gallery img{
+		max-width: 60%;
+	}
+
+	.founder{
+		max-width: 70%;
+	}
     
 }
 
 @media only screen and (min-width: 768px) {
+
+	.cta_bubble{
+		background-size: 40%;
+	}
     
+	.gallery img{
+		max-width: 50%;
+	}
+
+	.side{
+		display:flex;
+	}
+
+	.home aside{
+		margin: 50px auto;
+	}
+    
+	.founder{
+		max-width:80%;
+	}
+
+	#container{
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+	.founder img{
+		max-width:50%;
+	}
+
+	.founder p{
+		max-width:50%;
+		padding-top: 10px;
+	}
+
+	.founder p:last-child{
+		max-width:100%;
+		padding-top: 15px;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -466,9 +527,27 @@ Media Queries
 		padding:30px;
 	
 	}
+
+	.cta_bubble{
+		background-size: 30%;
+	}
+
+	.founder{
+		max-width: 60%;
+	}
     
 }
 
 @media only screen and (min-width: 1200px) {
+
+	.cta_bubble{
+		background-size: 25%;
+	}
+
+	.founder p:last-child{
+		max-width: 50%;
+   		margin: 0 0 0 280px;
+    	padding-top: 0;
+	}
     
 }
