@@ -440,6 +440,10 @@ Media Queries
 	.founder{
 		max-width: 70%;
 	}
+
+	.side ul{
+		margin: 0 0 0 100px;
+	}
     
 }
 
@@ -482,6 +486,10 @@ Media Queries
 	.founder p:last-child{
 		max-width:100%;
 		padding-top: 15px;
+	}
+
+	.side ul{
+		margin: 0 auto;
 	}
 }
 
@@ -542,12 +550,6 @@ Media Queries
 
 	.cta_bubble{
 		background-size: 25%;
-	}
-
-	.founder p:last-child{
-		max-width: 50%;
-   		margin: 0 0 0 280px;
-    	padding-top: 0;
 	}
     
 }
